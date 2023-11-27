@@ -13,8 +13,9 @@ export default function Component({ placeholder, button, onSubmit }) {
     if (onSubmit) {
       onSubmit(value);
     } else {
-      throw new Error("onSubmit props is undefined");
+      throw new Error("onSubmit props is underfined");
     }
+
     setValue("");
   };
 

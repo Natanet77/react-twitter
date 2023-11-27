@@ -9,7 +9,7 @@ export default function Component({ username, date, text }) {
         <span className="post-content__date">{date}</span>
       </div>
 
-      <p className="post-content__text"></p>
+      <p className="post-content__text">{text}</p>
     </Grid>
   );
 }
